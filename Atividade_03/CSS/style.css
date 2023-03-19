@@ -17,7 +17,18 @@ a:visited {
     color: darkblue;
 }
 
+.link:hover:after{           
+        content:" § ";
+        color: darkblue;
+}
 
+a {
+    text-decoration: none;
+}
+
+.paragrafo{
+    text-align: justify;
+}
 
 
 
