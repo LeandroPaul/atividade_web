@@ -30,5 +30,14 @@ a {
     text-align: justify;
 }
 
+.sub:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+.img:hover::after{
+    content:" § ";
+    color: darkblue;
+}
+
 
 
