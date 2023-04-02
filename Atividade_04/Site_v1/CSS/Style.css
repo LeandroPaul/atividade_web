@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    line-height: 0;
+    text-align: right;
+    border:dotted blue;
+}
+
+header h1{
+    font-size: 36px; 
+    color: #990000; 
+    padding: 4px 10px 2px 0px;
+}
+header h2{
+    font-size: 20px; 
+    padding: 10px 10px 4px 0px;
+}
+
+section{
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+    width: 720px;
+    height: 713px;
+    border: dotted;
+}
+
+aside{
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    width: 230px;
+    border: dotted orangered;
+}
+
+
+footer{
+    padding: 0px 10px;
+    width: 960px;
+    height: 28px;
+    display: table;
+    border: dotted rgb(0, 157, 255);
+}
+
+body{
+    margin: auto;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
