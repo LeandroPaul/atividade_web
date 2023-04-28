@@ -1,0 +1,14 @@
+
+table{
+    /* Redimensiona o espaçamento entre as linhas das bordas*/
+    border-spacing: 12px;
+}
+label{
+    display: inline-block;
+    width: 90px;
+}
+
+input{
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
