@@ -3,9 +3,13 @@ table{
     /* Redimensiona o espaçamento entre as linhas das bordas*/
     border-spacing: 12px;
 }
-label{
+.label{
     display: inline-block;
     width: 85px;
+}
+.label_login{
+    display: inline-block;
+    width: 125px;
 }
 
 input{
