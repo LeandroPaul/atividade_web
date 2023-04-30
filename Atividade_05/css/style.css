@@ -7,7 +7,7 @@ table{
     display: inline-block;
     width: 85px;
 }
-.label_login{
+.label_dadosDElogin{
     display: inline-block;
     width: 125px;
 }
@@ -15,5 +15,11 @@ table{
 input{
     /* Para harmonizar o look & feel das bordas nos campos de texto*/
     border: 1px solid #999;
+    	/* definimos o quão arredondado irá ficar nosso box */
+	border-radius: 2px;
 }
-
+#box{
+	
+	/* definimos o quão arredondado irá ficar nosso box */
+	border-radius: 2px;
+	}
