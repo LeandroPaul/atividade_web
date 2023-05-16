@@ -11,7 +11,6 @@ header {
 }
 .container{
     width: 990px;
-    
     display: flex;
     justify-content: space-between;
 
@@ -226,5 +225,69 @@ footer{
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
-    color:#0079c7
+    color:#0079c7;
 }
+
+footer_banner{
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer_bannertexto{
+    font-size: 12px;
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.footer_bannertitulo{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+
+}
+
+#geral_footer{
+    display: flex;
+    justify-content: center;
+}
+
+#geral_footer section{
+    flex: 3;
+}
+
+.footer_wd_titulo_tx{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer_wd_conteudo{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.footer_wd_barra{
+    width: 100%;
+    border: 0;
+	border-top: 1px solid gray;
+    line-height: 5px;
+}
+
+span{
+    font-size: 12px;
+    color: gray;
+}
+
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+
