@@ -305,4 +305,8 @@ p a:hover{
     height: 250px;
     display: flex;
 }
+.wd_conteudo li{
+    list-style-type: none;
+    padding: 5px;
+}
 
