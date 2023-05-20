@@ -287,7 +287,7 @@ span{
 }
 
 p{
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -302,11 +302,38 @@ p a:hover{
 }
 
 .footer_bannerbaixo {
-    height: 250px;
+    height: 280px;
     display: flex;
 }
 .wd_conteudo li{
     list-style-type: none;
     padding: 5px;
+    
 }
+.wd_conteudo li:hover{
+    border-style: groove;
+}
+.wd_conteudo a{
+    text-decoration: none;
+    color: black;
+}
+ .footer_wd_conteudo{
+    list-style-type: none;
+    padding: 10px;
+    
+    
+ }
+.footer_wd_conteudo a{
+    text-decoration: none;
+    color: white;
+     
+}
+.footer_wd_conteudo li:hover{ 
+    border-style: groove;
+   
+    
+    
+    
+}
+    
 
