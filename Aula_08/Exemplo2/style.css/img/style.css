@@ -310,7 +310,10 @@ p a:hover{
     padding: 5px;  
 }
 .wd_conteudo li:hover{
-    border-style: groove;
+    border-style: none;
+    border-radius: 10px;
+    background: #39aae1;
+    
 }
 .wd_conteudo a{
     text-decoration: none;
@@ -327,6 +330,7 @@ p a:hover{
 .footer_wd_conteudo a{
     text-decoration: none;
     color: white;
+    
      
 }
 
@@ -334,8 +338,9 @@ p a:hover{
     
     color: blue;   
 }
+
 small{
-    margin-left: 230px;
+    margin-left: 210px;
     font-size: 12px;
 }
 
