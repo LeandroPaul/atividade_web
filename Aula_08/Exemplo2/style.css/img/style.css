@@ -307,8 +307,7 @@ p a:hover{
 }
 .wd_conteudo li{
     list-style-type: none;
-    padding: 5px;
-    
+    padding: 5px;  
 }
 .wd_conteudo li:hover{
     border-style: groove;
@@ -317,10 +316,12 @@ p a:hover{
     text-decoration: none;
     color: black;
 }
+.wd_conteudo a:hover{ 
+    color: blue;
+    font-weight: bold;
+}
  .footer_wd_conteudo{
     list-style-type: none;
-    padding: 10px;
-    
     
  }
 .footer_wd_conteudo a{
@@ -328,12 +329,28 @@ p a:hover{
     color: white;
      
 }
-.footer_wd_conteudo li:hover{ 
-    border-style: groove;
-   
+
+.footer_wd_conteudo a:hover{ 
     
-    
-    
+    color: blue;   
 }
-    
+small{
+    margin-left: 230px;
+    font-size: 12px;
+}
+
+
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+
+  
 
