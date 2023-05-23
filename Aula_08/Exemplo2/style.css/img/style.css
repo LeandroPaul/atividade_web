@@ -340,21 +340,34 @@ p a:hover{
 }
 .wd_conteudo li{
     list-style-type: none;
-    padding: 5px;  
+      
 }
 .wd_conteudo li:hover{
-    border-style: none;
-    border-radius: 10px;
-    background: #39aae1;
+    
+   
     
 }
 .wd_conteudo a{
     text-decoration: none;
     color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.wd_conteudo p{
+    line-height: 35px;
+
 }
 .wd_conteudo a:hover{ 
     color: blue;
     font-weight: bold;
+    padding: 5px;
+    background: #39aae1;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    
 }
  .footer_wd_conteudo{
     list-style-type: none;
