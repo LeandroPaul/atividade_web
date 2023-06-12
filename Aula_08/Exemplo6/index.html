@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulando Estilos com Javascript</title>
+
+  <style>
+      :root{
+          --corDeFundo: #ff11ff;
+      }
+      .claro{
+          background-color: #f1f5f9;
+          color: #211529;
+      }
+      .escuro{
+          background-color: #211529;
+          color: #f1f5f9;
+      }
+      .medio{
+          background-color: var(--corDeFundo);
+      }
+
+  </style>
+
+  <script src="exemplo6.js" defer></script>
+</head>
+
+<body class="claro">
+  <h1>Manipulando Estilos com Javascript</h1>
+  <hr>
+  <button id="btClaro" onclick="usarTemaClaro()">Tema Claro</button>
+  <button id="btEscuro" onclick="usarTemaEscuro()">Tema Escuro</button>
+  <button id="btTrocaTema" onclick="trocaTema()">Alternar Tema Claro/Escuro</button>
+  <button id="btMedio" onclick="medio()">Tema Medio</button>
+  <h2>Título da Página</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sed, labore blanditiis hic perspiciatis error veritatis eum animi aliquam consequuntur non facere sit nisi nam similique at obcaecati odit debitis.
+  </p>
+</body>
+</html>
