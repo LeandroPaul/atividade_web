@@ -1,0 +1,17 @@
+body{
+    display: flexbox;
+    margin: 0%;
+    background-color: yellow;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color:aquamarine;
+}
+
+.time{
+    display: flexbox;
+    margin-left: 10px
+    background-color: red;
+}
