@@ -1,41 +1,41 @@
 function addPlayer() {
-  var positionSelect = document.getElementById("position");
-  var nameInput = document.getElementById("name");
-  var numberInput = document.getElementById("number");
+  var selecionarPosicao = document.getElementById("position");
+  var nomeInput = document.getElementById("name");
+  var numeroInput = document.getElementById("number");
 
-  var position = positionSelect.value;
-  var name = nameInput.value;
-  var number = numberInput.value;
+  var pos = selecionarPosicao.value;
+  var nome = nomeInput.value;
+  var num = numeroInput.value;
 
-  if (confirm("Deseja escalar o jogador " + name + " na posição " + position + " com o número " + number + "?")) {
-    var teamList = document.getElementById("team-list");
-    var newPlayerItem = document.createElement("li");
-    newPlayerItem.textContent = "Posição: " + position + ", Nome: " + name + ", Número: " + number;
-    teamList.appendChild(newPlayerItem);
+  if (confirm("Deseja escalar o jogador " + nome + " na posição " + pos + " com o número " + num + "?")) {
+    var equipe = document.getElementById("team-list");
+    var jogadorDaEquipe = document.createElement("li");
+    jogadorDaEquipe.textContent = "Posição: " + pos + ", Nome: " + nome + ", Número: " + num;
+    equipe.appendChild(jogadorDaEquipe);
 
-    nameInput.value = "";
-    numberInput.value = "";
+    nomeInput.value = "";
+    numeroInput.value = "";
   }
 }
 
 function removePlayer() {
-  var numberToRemoveInput = document.getElementById("numberToRemove");
-  var numberToRemove = numberToRemoveInput.value;
+  var numeroInput = document.getElementById("numberToRemove");
+  var numeroParaRemover = numeroInput.value;
 
-  if (confirm("Deseja remover o jogador com o número " + numberToRemove + "?")) {
-    var teamList = document.getElementById("team-list");
-    var playerItems = teamList.getElementsByTagName("li");
+  if (confirm("Deseja remover o jogador com o número " + numeroParaRemover + "?")) {
+    var lista = document.getElementById("team-list");
+    var listaJogadores = lista.getElementsByTagName("li");
 
-    for (var i = 0; i < playerItems.length; i++) {
-      var item = playerItems[i];
-      var playerNumber = item.textContent.split("Número: ")[1];
+    for (var i = 0; i < listaJogadores.length; i++) {
+      var item = listaJogadores[i];
+      var numeroJogador = item.textContent.split("Número: ")[1];
 
-      if (playerNumber == numberToRemove) {
-        teamList.removeChild(item);
+      if (numeroJogador == numeroParaRemover) {
+        lista.removeChild(item);
         break;
       }
     }
 
-    numberToRemoveInput.value = "";
+    numeroInput.value = "";
   }
 }
