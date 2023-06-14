@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Escalação do Time</title>
+  <script src="exercicio.js"></script>
+</head>
+<body>
+  <div class = "cabecalho">
+    <h1>Escalação do Time</h1>
+  </div>
+  <div>
+    <h2>Escalar Jogador</h2>
+    <p>
+      <label for="position">Posição:</label>
+      <select id="position">
+          <option name="gol">Goleiro</option>
+          <option name="ld">Lateral Direito</option>
+          <option name="zag">Zagueiro</option>
+          <option name="le">Lateral Esquerdo</option>
+          <option name="vol">Volante</option>
+          <option name="mc">Meio de Campo</option>
+          <option name="mc">Atacante</option>
+      </select>
+      <label for="name">Nome:</label>
+      <input type="text" id="name">
+      <label for="number">Número:</label>
+      <input type="number" id="number">
+      <button onclick="addPlayer()">Escalar</button>
+    </p>
+    <h2>Remover Jogador</h2>
+    <p>
+      <label for="numberToRemove">Número:</label>
+      <input type="number" id="numberToRemove">
+      <button onclick="removePlayer()">Remover</button>
+    </p>
+    <div class = "time">
+      <div class="nome">
+        <h2>Time:</h2>
+        <ul id="team-list"></ul>
+      </div>
+      <div class="img"><img src="img/download.jpg" alt="" height="240px"></div>
+    </div>
+  </div>
+  
+  
+</body>
+</html>

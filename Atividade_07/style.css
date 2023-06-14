@@ -1,0 +1,26 @@
+body{
+    display: flexbox;
+    margin: 0%;
+    background-color: yellow;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color:aquamarine;
+}
+
+.time{
+    display: flex;
+    background-color: white;
+    height: 470px;
+}
+
+h2, p{
+    margin-left: 10px;
+}
+.img{
+    display: flex;
+    margin-top: 10%;
+    margin-left:20%;
+}

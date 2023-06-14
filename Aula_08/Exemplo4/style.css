@@ -1,0 +1,14 @@
+/* Colocando O FORMULARIO ALINHADA
+	Transforma em BLOCO
+*/
+label{
+    display: flex;
+    float: left;
+}
+
+/*Define um tamanho, impedindo que fiquem desalinhados*/
+
+input {
+    display: flex;
+	margin-left: 10%;
+}
