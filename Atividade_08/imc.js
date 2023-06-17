@@ -10,27 +10,27 @@ var peso = pesoInput.value
 var calculo = peso/(altura*altura)
 
 if (calculo>=18.5 && calculo<=24.9){
-    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(2) + " . Parabéns está dentro do intervalo normal"
+    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(1) + " e você está com peso ideal. Parabéns !!!"
 }
 
 else if (calculo<18.5){
-    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(2) + " . Diagnóstico: você está abaixo do peso!"
+    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(1) + ". Você está abaixo do peso!"
 }
 
 else if (calculo>24.9 && calculo<=29.9){
-    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(2) + " . Diagnóstico: você está com sobrepeso!"
+    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(1) + ". Você está com sobrepeso!"
 }
 
 else if (calculo>=30 && calculo<=34.9){
-    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(2) + " . Diagnóstico: obesidade classe I !"
+    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(1) + ". Obesidade classe I !"
 }
 
 else if (calculo>=35 && calculo<=39.9){
-    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(2) + " . Diagnóstico: obesidade classe II !"
+    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(1) + ". Obesidade classe II !"
 }
 
 else {
-    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(2) + " . Diagnóstico: obesidade classe III !"
+    document.getElementById("resultado").textContent = nome+" seu IMC é "+calculo.toFixed(1) + ". Obesidade classe III !"
 }
     
 }
